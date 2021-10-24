@@ -1,3 +1,39 @@
-//필요로 하는 데이터 
-//Json 에피소드 보기 
-// object 와 유사함
+{
+    "items": [
+        { 
+            "type": "tshirt", 
+            "gender": "female",
+            "size": "large",
+            "color": "pink",
+            "image": "../img/pink_t.png"
+        },
+        { 
+            "type": "pants", 
+            "gender": "male",
+            "size": "small",
+            "color": "blue",
+            "image": "../img/blue_p.png"
+        },
+        { 
+            "type": "pants", 
+            "gender": "male",
+            "size": "large",
+            "color": "yellow",
+            "image": "../img/yellow_p.png"
+        },
+        { 
+            "type": "skirt", 
+            "gender": "male",
+            "size": "large",
+            "color": "pink",
+            "image": "../img/pink_s.png"
+        },
+        { 
+            "type": "skirt", 
+            "gender": "female",
+            "size": "small",
+            "color": "yellow",
+            "image": "../img/yellow_s.png"
+        }
+    ]
+}
