@@ -24,6 +24,7 @@ function createHTMLStirng(item) {
     `;
 }
 
+// Handle button click
 function onButtonClick(event, items) {
     const dataset = event.target.dataset;
     const key = dataset.key;
@@ -33,13 +34,25 @@ function onButtonClick(event, items) {
         return;
     }
 
-    const filtered = items.filter(item => item[key] == value);
-    console.log(filtered);
-    displayItems(filtered);
+    //updateItems(items, key, value);
+     const filtered = items.filter(item => item[key] == value);
+     console.log(filtered);
+     displayItems(filtered);
 
     // console.log(event.target.dataset.key);
     // console.log(event.target.dataset.value);
 }
+
+// Make the items matching {key: value} invisible.
+function updateItems(items, key, value) {
+    items.forEach(item => {
+      if (item.dataset[key] === value) {
+        item.classList.remove('invisible');
+      } else {
+        item.classList.add('invisible');
+      }
+    });
+  }
 
 function setEventListeners(items) {
     const logo = document.querySelector('.logo');
