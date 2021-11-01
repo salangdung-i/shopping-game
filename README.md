@@ -14,12 +14,19 @@ logo icon 과 하위 icon 클릭이벤트를 추가하여 옷의 종류와 색�
 </ul>
 
 # Screen Shot 
-Initial Screen
-<img src="img/screenshot1.png">
+Initial Screen<br>
+<img src="img/screenshot1.png" width="300" height="500">
 
-Filtering...
-<img src="img/screenshot2.png">
-<img src="img/screenshot3.png">
-<img src="img/screenshot4.png">
+Filtering...<br>
+<img src="img/screenshot2.png" width="300" height="500">
+<img src="img/screenshot3.png" width="300" height="500">
+<img src="img/screenshot4.png" width="300" height="500">
 
+
+# Ref
+https://developer.mozilla.org/ko/docs/Web/API/Fetch_API
+https://developer.mozilla.org/ko/docs/Web/API/EventListener
+https://developer.mozilla.org/en-US/docs/Web/API/Event
+https://developer.mozilla.org/en-US/docs/Web/API/Event/target
+https://www.youtube.com/watch?v=We2Kv1HMGvc 
 
