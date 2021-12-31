@@ -1,7 +1,6 @@
 // 1. fetch
 function loadItems() {
-    // return fetch('/data/data.json')
-    return fetch('../../shopping-game/data/data.json')
+    return fetch('/data/data.json')
         .then(response => response.json())
         .then(json => json.items);
 }
@@ -28,7 +27,7 @@ function onButtonClick(event, items) {
     // console.log(key);
     // console.log(value);
     // console.log(items.filter(item => item[key] == value));
-
+    
     const filterData = items.filter(item => item[key] == value);
     displayItems(filterData);
 }
